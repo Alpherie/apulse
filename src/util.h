@@ -26,7 +26,7 @@
 #define APULSE__UTIL_H
 
 #include <pulse/pulseaudio.h>
-#include <asoundlib.h>
+#include <alsa/asoundlib.h>
 
 
 int
