@@ -28,7 +28,7 @@
 #define _GNU_SOURCE
 #include <pthread.h>
 #include <glib.h>
-#include <asoundlib.h>
+#include <alsa/asoundlib.h>
 #include <pulse/pulseaudio.h>
 #include <poll.h>
 #include "ringbuffer.h"
