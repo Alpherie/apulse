@@ -1,7 +1,12 @@
 About
 =====
 
-PulseAudio emulation for ALSA.
+PulseAudio emulation for ALSA. 
+
+Tried compilation of the package for Debian, though it needed some modifications. Asoundlib.h was not found, because it is not asoundlib.h, but alsa/asoundlib.h
+Make sure libasound2-dev is installed.
+
+Further goes the original readme.
 
 Project is in stale state since its proclamation. The main objective,
 working Skype test call, is reached. I don't have any plans for further
